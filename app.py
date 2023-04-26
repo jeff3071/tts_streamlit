@@ -70,7 +70,7 @@ def load_json():
         
     return res
 
-st.set_page_config(layout="wide", page_title="Image Background Remover")
+st.set_page_config(layout="wide", page_title="TTS")
 
 st.markdown("\n")
 
