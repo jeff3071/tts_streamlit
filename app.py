@@ -1,11 +1,7 @@
-from PIL import Image
 import streamlit as st
-import numpy as np
 import requests
 from xml.etree import ElementTree
-import io
 import os
-import time
 import json
 from collections import defaultdict
 from functools import lru_cache
