@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tts-streamlit"
+version = "0.1.0"
+description = ""
+authors = ["jeff3071 <jeff563715@gmail.com>"]
+readme = "README.md"
+packages = [{include = "tts_streamlit"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
