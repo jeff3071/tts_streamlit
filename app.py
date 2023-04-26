@@ -19,7 +19,7 @@ def _get_token(subscription_key: str, token_url: str) -> str:
         return response.content.decode()
 
 def send_req(lang, speaker, text, speed, pitch, style):
-    subscription_key = os.environ['subscription_key']
+    subscription_key = os.environ['SUBSCRIPTION_KEY']
     
     token_url = "https://southeastasia.api.cognitive.microsoft.com/sts/v1.0/issuetoken"
     api_url = "https://southeastasia.tts.speech.microsoft.com/cognitiveservices/v1"
